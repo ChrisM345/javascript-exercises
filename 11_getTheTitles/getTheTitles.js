@@ -1,4 +1,7 @@
-const getTheTitles = function() {
+const getTheTitles = function(anArray) {
+    answer = [];
+    anArray.forEach((obj) => answer.push(obj.title));
+    return answer;
 
 };
 
